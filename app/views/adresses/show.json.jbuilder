@@ -1,1 +1,1 @@
-json.extract! @adress, :id, :vorname, :nachname, :street, :plz, :city, :country, :created_at, :updated_at
+json.extract! @adress, :id, :vorname, :name, :street, :plz, :city, :country, :created_at, :updated_at

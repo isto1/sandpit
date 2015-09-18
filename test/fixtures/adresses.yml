@@ -2,7 +2,7 @@
 
 one:
   vorname: MyString
-  nachname: MyString
+  name: MyString
   street: MyString
   plz: 1
   city: MyString
@@ -10,7 +10,7 @@ one:
 
 two:
   vorname: MyString
-  nachname: MyString
+  name: MyString
   street: MyString
   plz: 1
   city: MyString
