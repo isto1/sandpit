@@ -10,5 +10,15 @@
   <%= @user.name %>
 </p>
 
+<p>
+  <strong>Date Created:</strong>
+  <%= @user.date_created %>
+</p>
+
+<p>
+  <strong>Date Updated:</strong>
+  <%= @user.date_updated %>
+</p>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
