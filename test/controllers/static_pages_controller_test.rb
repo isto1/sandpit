@@ -19,4 +19,12 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "About | Sandpit App | V1"
   end
+
+ test "should get contact" do
+    get :contact
+    assert_response :success
+    assert_select "title", "Contact | Sandpit App | V1"
+  end
+
+
 end
