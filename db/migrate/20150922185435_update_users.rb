@@ -1,5 +1,5 @@
 class UpdateUsers < ActiveRecord::Migration
-    def self.up
+  def self.up
       change_table :users do |t|
           t.date :date_created, :date_updated
       end

@@ -2,3 +2,8 @@ ingo:
   name: Ingo Stopka 
   email: stopke@wtal.de
   password_digest: <%= User.digest('password') %>
+  
+uli:
+  name: uli 
+  email: u,boehl@gmail.com
+  password_digest: <%= User.digest('password') %>
